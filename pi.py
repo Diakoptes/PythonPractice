@@ -7,7 +7,7 @@ def round_pi():
     
     n = int(input("number of playces: "))
     
-    if n<100:
+    if n < 10:
         return round(math.pi,n)
     else:
         print("number is to big, plese get lower" + round_pi())
