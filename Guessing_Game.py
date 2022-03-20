@@ -6,7 +6,7 @@ def guessing_game():
     guess = random.randrange(1, 100)
     playing = True
     posibilities = list(range(0,101))
-    start = "I chose a numeber.\nIt is in range 1-100.\nGuess or die!"
+    start = "I chose a numeber.\nIt's in range 1-100."
     
     print(start)
     
